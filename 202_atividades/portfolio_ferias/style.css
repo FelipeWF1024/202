@@ -1,0 +1,21 @@
+header{
+    padding: 16px 0;
+    background-color:#ECF0F1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+body {
+    padding: 16px 0;
+    background-color: #ECF0F1;
+}
+.jogos {
+    display: flex;
+    gap: 20px; 
+}
+
+.jogos img {
+    width: 150px;  
+    height: auto;  
+}
