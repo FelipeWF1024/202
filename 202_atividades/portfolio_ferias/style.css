@@ -4,18 +4,57 @@ header{
     align-items: center;
     justify-content: center;
     display: flex;
-    text-align: center;
 }
+
 body {
-    padding: 16px 0;
     background-color: #ECF0F1;
+    font-size: 20px;
 }
-.jogos {
+
+h1{
+    font-size: 60px;
+}
+
+.jogos,
+.casasai {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .jogos img {
-    width: 150px;  
-    height: auto;  
+    width: 200px;  
+    height: 200px;  
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.resenha img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.casasai img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.jogos img:hover {
+    transform: scale(1.1);
+}
+
+.resenha img:hover {
+    transform: scale(1.1);
+}
+
+.casasai img:hover {
+    transform: scale(1.1);
+}
+
+.container{
+    padding: 16px 16px 16px 16px;
 }
