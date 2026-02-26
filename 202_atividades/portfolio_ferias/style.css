@@ -1,14 +1,15 @@
 header{
     padding: 16px 0;
-    background-color:#ECF0F1;
+    background-color:#23d2f1;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
 body {
-    background-color: #ECF0F1;
+    background-color: #c8dce1;
     font-size: 20px;
+    margin: 0px;
 }
 
 h1{
